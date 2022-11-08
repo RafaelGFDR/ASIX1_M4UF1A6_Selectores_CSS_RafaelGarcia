@@ -7,7 +7,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CSS Selectors</title>
     <link rel="stylesheet" href="css/style.css">
-    <link rel="shortcut icon" href="resources/apple-whole-solid.svg" type="image/x-icon">
+    <!--Paso 3-->
+    <script src="https://kit.fontawesome.com/7822954312.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="resources/code-solid.svg" type="image/x-icon">
+    <!--Paso 2-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100&display=swap" rel="stylesheet">
@@ -22,11 +25,11 @@
         <p>We can divide CSS selectors into five categories:</p>
         <ul>
             <li>Simple selectors (select elements based on name, id, class)</li>
-            <li>Combinator selectors (select elements based on a specific relationship between them)</li>
-            <li>Pseudo-class selectors (select elements based on a certain state)
-            </li>
-            <li>Pseudo-elements selectors (select and style a part of an element)</li>
-            <li>Attribute selectors (select elements based on an attribute or attribute value)</li>
+            <!--Paso 1-->
+            <li><a href="https://www.w3schools.com/css/css_combinators.asp">Combinator selectors</a> (select elements based on a specific relationship between them)</li>
+            <li><a href="https://www.w3schools.com/css/css_pseudo_classes.asp">Pseudo-class selectors</a> (select elements based on a certain state)</li>
+            <li><a href="https://www.w3schools.com/css/css_pseudo_elements.asp">Pseudo-elements</a> selectors (select and style a part of an element)</li>
+            <li><a href="https://www.w3schools.com/css/css_attribute_selectors.asp">Attribute selectors</a> (select elements based on an attribute or attribute value)</li>
         </ul>
     </div>
     <hr>
@@ -58,7 +61,47 @@
         </div>
         <div>
             <h3>All CSS Simple Selectors</h3>
-            <img src="./resources/selectors.png" alt="">
+            <!--<img src="./resources/selectors.png" alt="">-->
+            <!--Ej. Extra-->
+            <div id="extra">
+            <table id="tabla">
+                <tr>
+                  <th><b>Selector</b></th>
+                  <th><b>Example</b></th>
+                  <th><b>Example description</b></th>
+                </tr>
+                <tr>
+                  <td id="lineas">#id</td>
+                  <td>#firstname</td>
+                  <td>Selects the element with id="firstname</td>
+                </tr>
+                <tr>
+                  <td id="lineas">.class</td>
+                  <td>.into</td>
+                  <td>Selects all elements with class="into"</td>
+                </tr>
+                <tr>
+                  <td id="lineas">elements.class</td>
+                  <td>p.intro</td>
+                  <td>selects only &lt;p&gt; elements with class="into"</td>
+                </tr>
+                <tr>
+                  <td id="lineas">*</td>
+                  <td>*</td>
+                  <td>Selects all elements</td>
+                </tr>
+                <tr>
+                  <td id="lineas">elements</td>
+                  <td>p</td>
+                  <td>Selects all &lt;p&gt; elements</td>
+                </tr>
+                <tr>
+                  <td id="lineas">elements,elements,..</td>
+                  <td>div,p</td>
+                  <td>selects all &lt;div&gt; elements and all &lt;p&gt; elements</td>
+                </tr>
+              </table>
+            </div>
         </div>
     </div>
 
